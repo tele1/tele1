@@ -1,5 +1,5 @@
 
-# Github dla początkujących.
+# Github dla początkujących - Wysyłanie plików.
 
 Poradnik będzie dotyczył tylko 
 kilka bardzo podstawowych rzeczy które powinieneś znać,
