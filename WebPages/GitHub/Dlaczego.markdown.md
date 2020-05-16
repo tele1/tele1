@@ -3,7 +3,7 @@
 
 ## Zalety:
 
-1. Bo jest prosta, a tekst bardzo czytelny, w przeciwieństwie do składni do html.
+1. Bo składnia jest prosta, a tekst bardzo czytelny, w przeciwieństwie do składni do html.
 
 2. Możesz użyć część skladni html.
 
