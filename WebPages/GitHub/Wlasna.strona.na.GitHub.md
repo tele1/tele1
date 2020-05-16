@@ -29,6 +29,9 @@ w podsekcji **Source** wybrac " master branch ".
 
 Wada takiego rozwiazania jest ze, 
 bedzie dzialac strona 
+
 > twoja_nazwa_uzytkownika.github.io/nazwa_projektu/
+
 ale nie zadziala 
+
 > twoja_nazwa_uzytkownika.github.io/
