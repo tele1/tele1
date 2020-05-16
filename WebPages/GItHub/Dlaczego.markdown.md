@@ -39,8 +39,8 @@ Cytat często zawiera wiele linii. Markdown nie posiada odpowiednika code
 - Wymuszanie odstępów zamiast nowej linii.
 
 Jest to zaleta, jak i wada.
-** Zaletą jest że przy odpowiednik odstępach markdown sam rozpoznaje kod / cytat, 
-** ale
+    - Zaletą jest że przy odpowiednik odstępach markdown sam rozpoznaje kod / cytat, 
+    - ale nie, kiedy chcesz przeniesc tekst do nowej linii.
 
 - Brak kolorów. 
 
