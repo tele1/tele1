@@ -18,9 +18,9 @@ Program java uważam za zbyt niebezpieczny do używania w przeglądarce, dlatego
 - Cytat >
 Cytat często zawiera wiele linii. Markdown nie posiada odpowiednika typu
 
-`` `
- # code block
-``
+> ` ` `
+>  # code block
+> ` ` `
  
 - Wymuszanie odstępów zamiast nowej linii.
 
