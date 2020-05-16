@@ -17,7 +17,8 @@
 ## Wady:
 
 1. Składnia.
-- Cytat >
+- Cytat.
+
 Cytat często zawiera wiele linii. Markdown nie posiada odpowiednika typu
 
 ` ```
@@ -29,4 +30,5 @@ Cytat często zawiera wiele linii. Markdown nie posiada odpowiednika typu
 - Wymuszanie odstępów zamiast nowej linii.
 
 - Brak kolorów. 
+
 Kolory są przydatne przy wyjaśnianiu / tłumaczeniu pewnych rzeczy w poradników.
