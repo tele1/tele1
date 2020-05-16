@@ -23,8 +23,9 @@
 
 Cytat często zawiera wiele linii. Markdown nie posiada odpowiednika typu
 
-    Markup : ```
-             ```
+           ```
+           code blok
+           ```
  
  Ale możesz użyć składni html  ' <blockquote> text </blockquote> '
  
