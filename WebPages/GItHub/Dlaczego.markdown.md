@@ -13,7 +13,8 @@
  Pomijam fakt że nie jest to zbyt przyjazny język do nauki, czy że był naprawiany wielokrotnie.
  Dlatego rozumiem osoby które starają się nie korzystać z javy w przeglądarce podczas tylko czytania.
  Oczywiście wiem, że niektórych stron nie otworzę bez włączonej javy.
- <\/blockquote>
+ </blockquote>
+
 
 ## Wady:
 
