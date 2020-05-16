@@ -96,4 +96,4 @@ https://help.github.com/articles/about-two-factor-authentication/
 https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
 
 To wszystko,
- pzryjemnego i bezpiecznego użytkowania z githuba. 
+ przyjemnego i bezpiecznego użytkowania z githuba. 
