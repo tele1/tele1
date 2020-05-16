@@ -11,9 +11,13 @@ Czyli stworzyc nowy projekt o nazwie podobnej do your_user_name.github.io
 i gotowe :D
 
 Od teraz mozesz stworzyc i dodac plik 
+
 > index.html 
+
 lub 
+
 > README.md 
+
 do repozytorium i jej zawartość bedzie sie wyswietlać na stronie twoja_nazwa_uzytkownika.github.io
 
 Prawda ze proste? :D
