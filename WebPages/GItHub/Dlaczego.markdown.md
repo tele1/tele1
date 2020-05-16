@@ -12,22 +12,19 @@
  Program np. java uważam że ma zbyt duże możliwości i tym samym zbyt niebezpieczny do używania w przeglądarce
  Pomijam fakt że nie jest to zbyt przyjazny język do nauki, czy że był naprawiany wielokrotnie.
  Dlatego rozumiem osoby które starają się nie korzystać z javy w przeglądarce podczas tylko czytania.
- Oczywiście wiem, że niektórych stron nie otworzę bez włączonej javy.
+ Oczywiście wiem, że niektórych stron nie otworzę lub jej niektóre elementy mogą nie działać bez włączonej javy.
  </blockquote>
 
 
 ## Wady:
 
-1. Składnia.
+1. Niektóre elementy składni.
 - Cytat.
 
 Cytat często zawiera wiele linii. Markdown nie posiada odpowiednika typu
 
-` ```
-
- code block
-
-` ```
+    Markup : ```
+             ```
  
  Ale możesz użyć składni html  ' <blockquote> text </blockquote> '
  
