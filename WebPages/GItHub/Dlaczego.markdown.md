@@ -8,11 +8,12 @@
 2. Możesz użyć część skladni html.
 
 3. Działa bez " java ".
-
-> Program np. java uważam że ma zbyt duże możliwości i tym samym zbyt niebezpieczny do używania w przeglądarce
-> Pomijam fakt że nie jest to zbyt przyjazny język do nauki, czy że był naprawiany wielokrotnie.
-> Dlatego rozumiem osoby które starają się nie korzystać z javy w przeglądarce podczas tylko czytania.
-> Oczywiście wiem, że niektórych stron nie otworzę bez włączonej javy.
+<blockquote>
+ Program np. java uważam że ma zbyt duże możliwości i tym samym zbyt niebezpieczny do używania w przeglądarce
+ Pomijam fakt że nie jest to zbyt przyjazny język do nauki, czy że był naprawiany wielokrotnie.
+ Dlatego rozumiem osoby które starają się nie korzystać z javy w przeglądarce podczas tylko czytania.
+ Oczywiście wiem, że niektórych stron nie otworzę bez włączonej javy.
+ <\/blockquote>
 
 ## Wady:
 
