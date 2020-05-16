@@ -2,9 +2,9 @@
 # Tworzenie wlasnej strony lub bloga na GitHub.
 
 
-Generalnie sa dwa sposoby
+## Generalnie sa dwa sposoby
 
-1. Ja proponuje taki:
+## 1. Ja proponuje taki:
 https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site
 
 Czyli stworzyc nowy projekt o nazwie podobnej do your_user_name.github.io
@@ -14,7 +14,7 @@ i jej zawartosc bedzie sie wyswietlac na stronie twoja_nazwa_uzytkownika.github.
 Prawda ze proste? :D
 
 
-2. Drugi sposob to 
+## 2. Drugi sposob to 
 w ustawieniach projektu, w sekcji " GitHub Pages " 
 w podsekcji **Source** wybrac " master branch ".
 
