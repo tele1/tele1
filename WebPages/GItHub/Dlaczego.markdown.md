@@ -19,19 +19,22 @@
 ## Wady:
 
 1. Niektóre elementy składni.
+
 - Cytat.
 
-Cytat często zawiera wiele linii. Markdown nie posiada odpowiednika typu
+Cytat często zawiera wiele linii. Markdown nie posiada odpowiednika code
 
            ```
            code blok
            ```
  
- Ale możesz użyć składni html  
+ dla cytatu. Ale możesz użyć składni html  
  
            <blockquote>
            text
            </blockquote> 
+           
+ Może przy pisaniu nie jest to tak istotne, co przy konwertowaniu plików.
  
 - Wymuszanie odstępów zamiast nowej linii.
 
