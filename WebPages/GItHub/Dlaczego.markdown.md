@@ -42,7 +42,7 @@ Jest to zaleta, jak i wada.
 
      - Zaletą jest że przy odpowiednich odstępach markdown sam rozpoznaje kod / cytat, 
   
-     - ale nie, kiedy chcesz przenieść tekst do nowej linii.
+     - ale nie zadziała Enter, kiedy chcesz przenieść tekst do nowej linii. Musisz zrobić odpowiedni odstęp.
 
 - Brak kolorów. 
 
