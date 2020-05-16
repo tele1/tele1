@@ -40,7 +40,7 @@ Cytat często zawiera wiele linii. Markdown nie posiada odpowiednika code
 
 Jest to zaleta, jak i wada.
 
-     - Zaletą jest że przy odpowiednich odstępach markdown sam rozpoznaje kod / cytat, 
+     - Zaletą wcięć jest że przy odpowiednich odstępach / wcięciach markdown sam rozpoznaje kod / cytat, 
   
      - ale nie zadziała Enter, kiedy chcesz przenieść tekst do nowej linii. Musisz zrobić odpowiedni odstęp.
 
