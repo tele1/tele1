@@ -4,7 +4,6 @@
 
 # Hi! :D
 If you don't understand something, use the online translator, for example google translator.
----
 
 
 
