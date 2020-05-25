@@ -24,8 +24,8 @@ If you don't understand something, use the online translator, for example google
 - [Tworzenie wlasnej strony lub bloga na GitHub](WebPages/GitHub/Wlasna.strona.na.GitHub.md) [PL]
 - [Dlaczego lubię i nie lubię Markdown](WebPages/GitHub/Dlaczego.markdown.md) [PL]
 - Cheat Sheet
-    - [Markdown] (WebPages/GitHub/test.Markdown.md) [EN]
-	- [AsciiDoc] (WebPages/GitHub/Test.AsciiDoc.adoc) [EN]
+    - [Markdown](WebPages/GitHub/test.Markdown.md) [EN]
+	- [AsciiDoc](WebPages/GitHub/Test.AsciiDoc.adoc) [EN]
 
 
 ## Linux
