@@ -5,7 +5,7 @@
 
 ![logo](/BlogPicture/linux2.jpeg)
 
-# Hi! Welkome to tele1.github.io :D
+# Hi! Welkome to  [tele1.github.io](https://tele1.github.io) :D
 If you don't understand something, use the online translator, for example google translator.
 
 
