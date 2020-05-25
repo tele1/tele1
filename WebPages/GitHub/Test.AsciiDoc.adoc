@@ -1,0 +1,5 @@
+
+
+Documentation AsciiDoc  https://github.com/asciidoc/asciidoc/blob/master/doc/asciidoc.txt
+
+Wiki https://en.wikipedia.org/wiki/.adoc
