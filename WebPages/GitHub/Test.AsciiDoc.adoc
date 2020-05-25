@@ -1,0 +1,28 @@
+
+
+Documentation AsciiDoc  https://github.com/asciidoc/asciidoc/blob/master/doc/asciidoc.txt
+
+Wiki https://en.wikipedia.org/wiki/.adoc
+
+
+
+== Level 1
+Text.
+
+=== Level 2
+Text.
+
+==== Level 3
+Text.
+
+===== Level 4
+Text.
+
+
+.Optional Title
+[NOTE]
+====
+*NOTE* Block
+
+Use: multi-paragraph notes.
+====
