@@ -13,7 +13,7 @@ If you don't understand something, use the online translator, for example google
 - [Bash zmienne](WebPages/Bash/Bash.zmienne.md) [PL]
 - [Debug Bash](WebPages/Bash/DebugBash.md) [PL]
 - [Wyszukiwanie słów w plikach](WebPages/Bash/grep.md) [PL]
-- [Liczenie plików w terminalu](LiczeniePlikow.md) [PL]
+- [Liczenie plików w terminalu](WebPages/Bash/LiczeniePlikow.md) [PL]
 
 
 ## GitHuB
