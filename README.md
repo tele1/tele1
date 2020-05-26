@@ -25,7 +25,6 @@ If you don't understand something, use the online translator, for example google
 - [Dlaczego lubię i nie lubię Markdown](WebPages/GitHub/Dlaczego.markdown.md) [PL]
 - Cheat Sheet
     - [Markdown](WebPages/GitHub/test.Markdown.md) [EN]
-	- [AsciiDoc](WebPages/GitHub/TestAsciiDoc.asciidoc) [EN]
 
 
 ## Linux
