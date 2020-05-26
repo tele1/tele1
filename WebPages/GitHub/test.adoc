@@ -1,3 +1,0 @@
-
-Documentation AsciiDoc
-https://github.com/asciidoc/asciidoc/blob/master/doc/asciidoc.txt

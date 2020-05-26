@@ -1,4 +1,49 @@
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 
+[NOTE]
+====
+A sample note admonition.
+We can use gemoji icons in the Asciidoctor markup.
+We assign an icon name to the document
+attributes `tip-caption`, `note-caption` and `important-caption`.
+====
+
+TIP: It works!
+
+IMPORTANT: Asciidoctor is awesome, don't forget!
+
+CAUTION: Don't forget to add the `...-caption` document attributes in the header of the document on GitHub.
+
+WARNING: You have no reason not to use Asciidoctor.
+
+
+== Level 1
+Text.
+
+=== Level 2
+Text.
+
+==== Level 3
+Text.
+
+===== Level 4
+Text.
+
+
+.Optional Title
+[NOTE]
+====
+*NOTE* Block
+
+Use: multi-paragraph notes.
+====
+=============================
 
 Documentation AsciiDoc  https://github.com/asciidoc/asciidoc/blob/master/doc/asciidoc.txt
 
