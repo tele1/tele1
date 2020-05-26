@@ -23,7 +23,7 @@ If you don't understand something, use the online translator, for example google
 - [Wysyłanie plików na GitHub](WebPages/GitHub/Upload.na.gihub.md) [PL]
 - [Tworzenie wlasnej strony lub bloga na GitHub](WebPages/GitHub/Wlasna.strona.na.GitHub.md) [PL]
 - [Dlaczego lubię i nie lubię Markdown](WebPages/GitHub/Dlaczego.markdown.md) [PL]
-- Cheat Sheet
+- My Cheat Sheet
     - [Markdown](WebPages/GitHub/test.Markdown.md) [EN]
 
 
