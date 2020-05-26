@@ -1,7 +1,7 @@
 
 
-Documentation **GitHub** MarkDown   https://github.github.com/gfm/
-  Documentation MarkDown              https://spec.commonmark.org/0.29/
+Documentation **GitHub** MarkDown   https://github.github.com/gfm/  
+Documentation MarkDown              https://spec.commonmark.org/0.29/
 
 Wiki  https://en.wikipedia.org/wiki/Markdown
 
