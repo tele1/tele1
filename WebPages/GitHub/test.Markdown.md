@@ -2,8 +2,8 @@
 
 
 
-Documentation **GitHub** MarkDown   https://github.github.com/gfm/  
-Documentation MarkDown              https://spec.commonmark.org/0.29/
+Documentation **GitHub** MarkDown   <https://github.github.com/gfm/>  
+Documentation MarkDown              <https://spec.commonmark.org/0.29/>
 
 Wiki  https://en.wikipedia.org/wiki/Markdown
 
@@ -46,6 +46,21 @@ Wiki  https://en.wikipedia.org/wiki/Markdown
     <td>Emphasis (Italic)</td>
     <td>*Hello World*</td>
     <td><span style="font-style:italic">Hello World</span></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Text link<br></td>
+    <td>[Your Text](https://web.site)<br></td>
+    <td><span style="color:rgb(53, 49, 255)">Your Text</span><br></td>
+  </tr>
+  <tr>
+    <td>Link destination (Autolinks)<br></td>
+    <td>&lt;https://web.site&gt;</td>
+    <td><span style="color:rgb(53, 49, 255)">https://web.site</span></td>
   </tr>
 </tbody>
 </table>
