@@ -84,7 +84,7 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
   </tr>
   <tr>
     <td>Block Quotes (I'm trying not use " &gt; ")</td>
-    <td>&lt;blockquote&gt;Hello<br> World&lt;/blockquote&gt;<br></td>
+    <td>&lt;blockquote&gt;Hello<br> World&lt;/blockquote&gt; (this is html)<br></td>
     <td><blockquote>Hello<br> World</blockquote></td>
   </tr>
   <tr>
@@ -95,7 +95,15 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
 </tbody>
 </table>
 ---
+## Markdown table
 
+Name | Soure code Markdown | Output Markdown
+------------ | ------------- | -------------
+Hard Line Breaks | Hello  (two spaces) <br>World<br> | Hello<br>World<br>
+<span style="font-weight:bold">Warning:</span><br>" \ " (at the end of line) also will break line | Hello\<br>World<br> | Hello<br>World
+
+
+---
 # GitHub Trics 
 
 ## 2. Creating new folders in GitHub repository via the we browser.
