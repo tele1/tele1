@@ -72,6 +72,11 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
     <td></td>
     <td></td>
   </tr>
+  <tr>
+    <td>Images</td>
+    <td>![text](/Path/to/file.jpeg)</td>
+    <td>Your Image</td>
+  </tr>
 </tbody>
 </table>
 ---
