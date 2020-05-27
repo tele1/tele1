@@ -5,7 +5,7 @@
 Documentation **GitHub** MarkDown   <https://github.github.com/gfm/>  
 Documentation MarkDown              <https://spec.commonmark.org/0.29/>
 
-Wiki  https://en.wikipedia.org/wiki/Markdown
+Wiki  <https://en.wikipedia.org/wiki/Markdown>
 
 
 
@@ -23,7 +23,7 @@ Wiki  https://en.wikipedia.org/wiki/Markdown
 </thead>
 <tbody>
   <tr>
-    <td>Hard line breaks</td>
+    <td>Hard Line Breaks</td>
     <td>Hello  (two spaces) <br>World<br></td>
     <td>Hello<br>World<br></td>
   </tr>
@@ -38,7 +38,7 @@ Wiki  https://en.wikipedia.org/wiki/Markdown
     <td>Hello World<br></td>
   </tr>
   <tr>
-    <td>Strong emphasis (Bold)</td>
+    <td>Strong Emphasis (Bold)</td>
     <td>**Hello World**</td>
     <td><span style="font-weight:bold">Hello World</span></td>
   </tr>
@@ -53,12 +53,12 @@ Wiki  https://en.wikipedia.org/wiki/Markdown
     <td></td>
   </tr>
   <tr>
-    <td>Text link<br></td>
+    <td>Link Text<br></td>
     <td>[Your Text](https://web.site)<br></td>
     <td><span style="color:rgb(53, 49, 255)">Your Text</span><br></td>
   </tr>
   <tr>
-    <td>Link destination (Autolinks)<br></td>
+    <td>Autolinks (Link Destination)</td>
     <td>&lt;https://web.site&gt;</td>
     <td><span style="color:rgb(53, 49, 255)">https://web.site</span></td>
   </tr>
@@ -71,7 +71,7 @@ Wiki  https://en.wikipedia.org/wiki/Markdown
 #
 ## 1. " relative link " in Markdown file.
 ```
-[a relative link](other_file.md)
+
 ```
 https://stackoverflow.com/questions/7653483/github-relative-link-in-markdown-file.
 
