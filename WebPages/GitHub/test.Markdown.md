@@ -13,7 +13,7 @@ Wiki  https://en.wikipedia.org/wiki/Markdown
 # This test web, not use this in practise for now
 # Examples
 
-<table style="width: 100%; border-collapse: collapse;" border="1">
+<table>
 <tbody>
 <tr style="height: 23px;">
 <td style="width: 50%; text-align: center; height: 23px;"><strong>Source code</strong></td>
@@ -57,6 +57,25 @@ Wiki  https://en.wikipedia.org/wiki/Markdown
 </table>
 
 
+---
+<table>
+<thead>
+  <tr>
+    <th><span style="font-weight:bold">Soure code</span></th>
+    <th><span style="font-weight:bold">Rendered Markdown</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+</tbody>
+</table>
 ---
 
 # GitHub Trics.
