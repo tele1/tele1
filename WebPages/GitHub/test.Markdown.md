@@ -14,65 +14,38 @@ Wiki  https://en.wikipedia.org/wiki/Markdown
 # Examples
 
 <table>
-<tbody>
-<tr style="height: 23px;">
-<td style="width: 50%; text-align: center; height: 23px;"><strong>Source code</strong></td>
-<td style="width: 50%; text-align: center; height: 23px;"><strong>Rendered Markdown</strong></td>
-</tr>
-<tr style="height: 21px;">
-<td style="width: 50%; height: 21px;">Hello&nbsp; (two spaces) <br />World</td>
-<td style="width: 50%; height: 21px;">
-<p>Hello <br />World</p>
-</td>
-</tr>
-<tr style="height: 21px;">
-<td style="width: 50%; height: 21px;">
-<p>Hello <br />&nbsp; (empty line)<br />World</p>
-</td>
-<td style="width: 50%; height: 21px;">
-<p>Hello</p>
-<p>World</p>
-</td>
-</tr>
-<tr style="height: 21px;">
-<td style="width: 50%; height: 21px;">
-<p>**Hello World**</p>
-</td>
-<td style="width: 50%; height: 21px;">
-<pre><code class="language-markdown"></code></pre>
-<pre><strong>Hello World</strong></pre>
-</td>
-</tr>
-<tr style="height: 21px;">
-<td style="width: 50%; height: 21px;">
-<p>*Hello World*</p>
-</td>
-<td style="width: 50%; height: 21px;"><em>Hello World</em></td>
-</tr>
-<tr style="height: 21px;">
-<td style="width: 50%; height: 21px;">&nbsp;</td>
-<td style="width: 50%; height: 21px;">&nbsp;</td>
-</tr>
-</tbody>
-</table>
-
-
----
-<table>
 <thead>
   <tr>
-    <th><span style="font-weight:bold">Soure code</span></th>
-    <th><span style="font-weight:bold">Rendered Markdown</span></th>
+    <th><span style="font-weight:bold">Name</span></th>
+    <th><span style="font-weight:bold">Soure code Markdown</span></th>
+    <th><span style="font-weight:bold">Output Markdown</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>1</td>
-    <td>2</td>
+    <td>Hard line breaks</td>
+    <td>Hello  (two spaces) <br>World<br></td>
+    <td>Hello<br>World<br></td>
   </tr>
   <tr>
-    <td>3</td>
-    <td>4</td>
+    <td><span style="font-weight:bold">Warning:</span><br>" \ " also will break line</td>
+    <td>Hello\<br>World<br></td>
+    <td>Hello<br>World</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Hello<br>World<br></td>
+    <td>Hello World<br></td>
+  </tr>
+  <tr>
+    <td>Strong emphasis (Bold)</td>
+    <td>**Hello World**</td>
+    <td><span style="font-weight:bold">Hello World</span></td>
+  </tr>
+  <tr>
+    <td>Emphasis (Italic)</td>
+    <td>*Hello World*</td>
+    <td><span style="font-style:italic">Hello World</span></td>
   </tr>
 </tbody>
 </table>
@@ -99,7 +72,7 @@ If you want edit folder, edit file inside this folder and click "Backspace" key 
 
 ============================
 
-I tried also use AsciDoc with Markdown on GitHub, but it not worked.
+I tried also use AsciDoc with Markdown on GitHub, but it not worked or I don't know how.
 When I trying open web.asciidoc, web browser trying open to download it.
 
 Documentation AsciiDoc  https://github.com/asciidoc/asciidoc/blob/master/doc/asciidoc.txt
