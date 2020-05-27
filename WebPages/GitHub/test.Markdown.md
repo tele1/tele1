@@ -53,14 +53,24 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
     <td></td>
   </tr>
   <tr>
+    <td>Autolinks (Link Destination)<br></td>
+    <td>&lt;https://web.site&gt;</td>
+    <td><span style="color:rgb(53, 49, 255)">https://web.site</span></td>
+  </tr>
+  <tr>
     <td>Link Text<br></td>
     <td>[Your Text](https://web.site)<br></td>
     <td><span style="color:rgb(53, 49, 255)">Your Text</span><br></td>
   </tr>
   <tr>
-    <td>Autolinks (Link Destination)</td>
-    <td>&lt;https://web.site&gt;</td>
-    <td><span style="color:rgb(53, 49, 255)">https://web.site</span></td>
+    <td>Relative Link</td>
+    <td>[Your Text](Path/to/other_file.md)</td>
+    <td><span style="color:rgb(53, 49, 255)">Your Text</span></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </tbody>
 </table>
