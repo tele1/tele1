@@ -85,12 +85,12 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
   <tr>
     <td>Block Quotes (I'm trying not use " &gt; ")</td>
     <td>&lt;blockquote&gt;Hello<br> World&lt;/blockquote&gt;<br></td>
-    <td>Hello<br> World</td>
+    <td><blockquote>Hello<br> World</blockquote></td>
   </tr>
   <tr>
     <td>Code spans</td>
     <td>```Hello<br> World```</td>
-    <td>Hello<br>World<br></td>
+    <td><code>Hello<br>World<br></code></td>
   </tr>
 </tbody>
 </table>
