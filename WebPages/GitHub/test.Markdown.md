@@ -11,7 +11,7 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
 
 ---
 # This test web, not use this in practise for now
-# Examples
+# My Markdown Cheat Sheet / Examples
 
 <table>
 <thead>
@@ -28,7 +28,7 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
     <td>Hello<br>World<br></td>
   </tr>
   <tr>
-    <td><span style="font-weight:bold">Warning:</span><br>" \ " also will break line</td>
+    <td><span style="font-weight:bold">Warning:</span><br>" \ " (at the end of line) also will break line</td>
     <td>Hello\<br>World<br></td>
     <td>Hello<br>World</td>
   </tr>
@@ -77,34 +77,41 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
     <td>![text](/Path/to/file.jpeg)</td>
     <td>Your Image</td>
   </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Block Quotes (I'm trying not use " &gt; ")</td>
+    <td>&lt;blockquote&gt;Hello<br> World&lt;/blockquote&gt;<br></td>
+    <td>Hello<br> World</td>
+  </tr>
+  <tr>
+    <td>Code spans</td>
+    <td>```Hello<br> World```</td>
+    <td>Hello<br>World<br></td>
+  </tr>
 </tbody>
 </table>
 ---
 
-# GitHub Trics.
+# GitHub Trics 
 
-#
-## 1. " relative link " in Markdown file.
-```
-
-```
-https://stackoverflow.com/questions/7653483/github-relative-link-in-markdown-file.
-
-#
 ## 2. Creating new folders in GitHub repository via the we browser.
 When you trying add new file, try add " / ".
 If you want edit folder, edit file inside this folder and click "Backspace" key on keyboard.
 
 #
 ## 3. Where can you found about " markdown "  syntax.
-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
-- https://www.markdownguide.org/basic-syntax/
+- <https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax>
+- <https://www.markdownguide.org/basic-syntax/>
 
 ============================
 
-I tried also use AsciDoc with Markdown on GitHub, but it not worked or I don't know how.
+I tried also use AsciDoc with Markdown on GitHub, but it not worked or I don't know how use it.
 When I trying open web.asciidoc, web browser trying open to download it.
 
-Documentation AsciiDoc  https://github.com/asciidoc/asciidoc/blob/master/doc/asciidoc.txt
+Documentation AsciiDoc  <https://github.com/asciidoc/asciidoc/blob/master/doc/asciidoc.txt>
 
-Wiki https://en.wikipedia.org/wiki/.adoc
+Wiki <https://en.wikipedia.org/wiki/.adoc>
