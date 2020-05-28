@@ -10,8 +10,7 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
 
 
 ---
-# This test web, not use this in practise for now
-# My Markdown Cheat Sheet / Examples
+# My Markdown Cheat Sheet / Examples 
 
 ## Line Break
 
@@ -70,7 +69,7 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
     <td><span style="font-style:italic">Hello World</span></td>
   </tr>
   <tr>
-    <td>Text Color<br><span style="font-weight:bold">Warning:</span><br>Text Color is not supported, so You can use html</td>
+    <td>Text Color<br><span style="font-weight:bold">Warning:</span><br>Text Color is not supported,<br> so You can try use html</td>
     <td><p>&lt;p style="color: green"&gt;Hello World&lt;/p&gt;</p><br>(This is html)</td>
     <td><p style="color:green">Hello World</p></td>
   </tr>
@@ -140,8 +139,8 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
 </thead>
 <tbody>
   <tr>
-    <td>Block Quotes <br><span style="font-weight:bold">Warning:</span><br>I'm trying not use " &gt; "</td>
-    <td>&lt;blockquote&gt;Hello<br> World&lt;/blockquote&gt;<br> (this is html)<br></td>
+    <td>Block Quotes <br><span style="font-weight:bold">Warning:</span><br>Default is " &gt; " for line,<br>but this style is more difficult <br>to convert to another</td>
+    <td>&lt;blockquote&gt;<br>Hello<br> World<br>&lt;/blockquote&gt;<br> (this is html)<br></td>
     <td><blockquote>Hello<br> World</blockquote></td>
   </tr>
   <tr>
@@ -159,8 +158,7 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
 
 ---
 
-<style>p{color:red;}</style> grdd
-*foo*
+
 ---
 # GitHub Trics 
 
