@@ -13,6 +13,8 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
 # This test web, not use this in practise for now
 # My Markdown Cheat Sheet / Examples
 
+## Line Break
+
 <table>
 <thead>
   <tr>
@@ -37,6 +39,21 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
     <td>Hello<br>World<br></td>
     <td>Hello World<br></td>
   </tr>
+</tbody>
+</table>
+
+
+## Emphasis 
+
+<table>
+<thead>
+  <tr>
+    <th><span style="font-weight:bold">Name</span></th>
+    <th><span style="font-weight:bold">Soure code Markdown</span></th>
+    <th><span style="font-weight:bold">Output Markdown</span></th>
+  </tr>
+</thead>
+<tbody>
   <tr>
     <td>Strong Emphasis (Bold)</td>
     <td>**Hello World**</td>
@@ -47,11 +64,21 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
     <td>*Hello World*</td>
     <td><span style="font-style:italic">Hello World</span></td>
   </tr>
+</tbody>
+</table>
+
+
+## Links 
+
+<table>
+<thead>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <th><span style="font-weight:bold">Name</span></th>
+    <th><span style="font-weight:bold">Soure code Markdown</span></th>
+    <th><span style="font-weight:bold">Output Markdown</span></th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td>Autolinks (Link Destination)<br></td>
     <td>&lt;https://web.site&gt;</td>
@@ -67,40 +94,60 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
     <td>[Your Text](Path/to/other_file.md)</td>
     <td><span style="color:rgb(53, 49, 255)">Your Text</span></td>
   </tr>
+</tbody>
+</table>
+
+
+## Images
+
+<table>
+<thead>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <th><span style="font-weight:bold">Name</span></th>
+    <th><span style="font-weight:bold">Soure code Markdown</span></th>
+    <th><span style="font-weight:bold">Output Markdown</span></th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td>Images</td>
     <td>![text](/Path/to/file.jpeg)</td>
     <td>Your Image</td>
   </tr>
+</tbody>
+</table>
+
+
+## Frames
+
+<table>
+<thead>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <th><span style="font-weight:bold">Name</span></th>
+    <th><span style="font-weight:bold">Soure code Markdown</span></th>
+    <th><span style="font-weight:bold">Output Markdown</span></th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td>Block Quotes (I'm trying not use " &gt; ")</td>
     <td>&lt;blockquote&gt;Hello<br> World&lt;/blockquote&gt; (this is html)<br></td>
     <td><blockquote>Hello<br> World</blockquote></td>
   </tr>
   <tr>
-    <td>Code spans</td>
+    <td>Code Spans</td>
     <td>```Hello<br> World```</td>
-    <td><code>Hello<br>World<br></code></td>
+    <td><code>Hello<br> World</code></td>
+  </tr>
+  <tr>
+    <td>Code With Syntax Highlighting</td>
+    <td>```sh<br>Hello<br> World```</td>
+    <td><code>Hello<br> World</code></td>
   </tr>
 </tbody>
 </table>
----
-## Markdown table
 
-Name | Soure code Markdown | Output Markdown
------------- | ------------- | -------------
-Hard Line Breaks | Hello  (two spaces) <br>World<br> | Hello<br>World<br>
-<span style="font-weight:bold">Warning:</span><br>" \ " (at the end of line) also will break line | Hello\<br>World<br> | Hello<br>World
+---
 
 
 ---
