@@ -136,12 +136,12 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
   </tr>
   <tr>
     <td>Code Spans</td>
-    <td>```Hello<br> World```</td>
+    <td>```<br>Hello<br> World<br>```</td>
     <td><code>Hello<br> World</code></td>
   </tr>
   <tr>
     <td>Code With Syntax Highlighting</td>
-    <td>```sh<br>Hello<br> World```</td>
+    <td>```sh<br>Hello<br> World<br>```</td>
     <td><code>Hello<br> World</code></td>
   </tr>
 </tbody>
