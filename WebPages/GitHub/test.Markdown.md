@@ -43,7 +43,7 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
 </table>
 
 
-## Emphasis 
+## Text
 
 <table>
 <thead>
@@ -63,6 +63,11 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
     <td>Emphasis (Italic)</td>
     <td>*Hello World*</td>
     <td><span style="font-style:italic">Hello World</span></td>
+  </tr>
+  <tr>
+    <td>Text Color<br><span style="font-weight:bold">Warning:</span><br>Text Color is not supported, so You can use html</td>
+    <td><p style="color:green">Hello World</p></td>
+    <td><p style="color:green">Hello World</p></td>
   </tr>
 </tbody>
 </table>
@@ -131,7 +136,7 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
 <tbody>
   <tr>
     <td>Block Quotes <br><span style="font-weight:bold">Warning:</span><br>I'm trying not use " &gt; "</td>
-    <td>&lt;blockquote&gt;Hello<br> World&lt;/blockquote&gt; (this is html)<br></td>
+    <td>&lt;blockquote&gt;Hello<br> World&lt;/blockquote&gt;<br> (this is html)<br></td>
     <td><blockquote>Hello<br> World</blockquote></td>
   </tr>
   <tr>
