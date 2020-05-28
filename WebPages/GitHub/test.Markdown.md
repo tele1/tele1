@@ -39,6 +39,11 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
     <td>Hello<br>World<br></td>
     <td>Hello World<br></td>
   </tr>
+  <tr>
+    <td></td>
+    <td>Hello <br><br>World<br></td>
+    <td>Hello <br><br>World<br></td>
+  </tr>
 </tbody>
 </table>
 
@@ -66,7 +71,7 @@ Wiki  <https://en.wikipedia.org/wiki/Markdown>
   </tr>
   <tr>
     <td>Text Color<br><span style="font-weight:bold">Warning:</span><br>Text Color is not supported, so You can use html</td>
-    <td><p>&lt;p style="color: green;"&gt;Hello World&lt;/p&gt;</p><br>(This is html)</td>
+    <td><p>&lt;p style="color: green"&gt;Hello World&lt;/p&gt;</p><br>(This is html)</td>
     <td><p style="color:green">Hello World</p></td>
   </tr>
 </tbody>
