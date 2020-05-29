@@ -194,6 +194,11 @@ Basic Syntax
     <td>```sh<br>Hello<br> World<br>```</td>
     <td><code>Hello<br> World</code></td>
   </tr>
+  <tr>
+    <td>One Cell From The Table</td>
+    <td>| One Cell |<br>| --- |</td>
+    <td><table><thead><tr><th>One Cell</th></tr></thead><tbody></tbody></table></td>
+  </tr>
 </tbody>
 </table>
 
