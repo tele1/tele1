@@ -1,0 +1,48 @@
+ Linux Kernel Module Cheat
+:idprefix:
+:idseparator: -
+:sectanchors:
+:sectlinks:
+:sectnumlevels: 6
+:sectnums:
+:toc: macro
+:toclevels: 6
+:toc-title:
+
+The perfect emulation setup to study and modify the <<linux-kernel>>, kernel modules, <<qemu-buildroot-setup,QEMU>> and <<gem5-buildroot-setup,gem5>>. Highly automated. Thoroughly documented. <<gdb>> and <<kgdb>> just work. Automated <<test-this-repo,tests>>. Powered by <<about-the-qemu-buildroot-setup,Buildroot>>. "Tested" in Ubuntu 18.04 host, x86 and ARM guests with kernel v4.20.
+
+TL;DR: <<qemu-buildroot-setup-getting-started>>
+
+toc::[]
+
+== Getting started
+
+Each child section describes a possible different setup for this repo.
+
+If you don't know which one to go for, start with <<qemu-buildroot-setup-getting-started>>.
+
+=== QEMU Buildroot setup
+
+==== QEMU Buildroot setup getting started
+
+This setup has been mostly tested on Ubuntu. For other host operating systems see: <<supported-hosts>>.
+
+Reserve 12Gb of disk and run:
+
+....
+git clone https://github.com/cirosantilli/linux-kernel-module-cheat
+cd linux-kernel-module-cheat
+./build --download-dependencies qemu-buildroot
+./run
+....
+
+You don't need to clone recursively even though we have `.git` submodules: `download-dependencies` fetches just the submodules that you need for this build to save time.
+
+If something goes wrong, see: <<common-build-issues>> and use our issue tracker: https://github.com/cirosantilli/linux-kernel-module-cheat/issues
+
+The initial build will take a while (30 minutes to 2 hours) to clone and build, see <<benchmark-builds>> for more details.
+
+If you don't want to wait, you could also try the following faster but much more limited methods:
+
+* <<prebuilt>>
+* <<host>>
