@@ -5,6 +5,9 @@
 | Test | table |
 
 
+| Table |
+
+
 <table>
 <thead>
   <tr>
