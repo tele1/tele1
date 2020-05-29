@@ -116,7 +116,7 @@ Basic Syntax
     <td><span style="color:rgb(53, 49, 255)">Your Text</span></td>
   </tr>
   <tr>
-    <td>Link To Header<br> <br>A very convenient way:<br> Open file on Github and click your ATX header<br>and you will have open link with header</td>
+    <td>Link To Header<br> <br>A very convenient way:<br> Open file on Github and click your ATX header<br>and you will have open link with header<br>but not working for me</td>
     <td>[link](#hello-world-1)</td>
     <td></td>
   </tr>
@@ -176,7 +176,7 @@ Basic Syntax
 ---
 Test
 
-[link](#hello-world-1)
+[link](##-1.-Creating-new-folders-in-GitHub-repository-via-the-we-browser.)
 ---
 
 I tried also use AsciDoc with Markdown on GitHub, but it not worked or I don't know how use it.  
