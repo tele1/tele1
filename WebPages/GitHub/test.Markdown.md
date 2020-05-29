@@ -18,7 +18,7 @@
 <tbody>
   <tr>
     <th>3</th>
-    <th><table><thead><tr><th>1</th><th>2<th></tr></thead><tbody><tr><th>3</th><th>4</th></tr></tbody></table></th>
+    <th><table><thead><tr><th>1</th><th>2</th></tr></thead><tbody><tr><th>3</th><th>4</th></tr></tbody></table></th>
   </tr>
 </tbody>
 </table>
