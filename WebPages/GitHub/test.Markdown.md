@@ -182,7 +182,7 @@ Basic Syntax
     <td><table><thead><tr><th>One Cell</th></tr></thead><tbody></tbody></table></td>
   </tr>
   <tr>
-    <td>One Cell In side Other Cell Written In Html</td>
+    <td>Other Example Table In Html</td>
     <td><p>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;External Cell&lt;br&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Middle Cell&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;</p></td>
     <td><table><thead><tr><th>External Cell<br><table><thead><tr><th>Middle Cell</th></tr></thead><tbody></tbody></table></th></tr></thead><tbody></tbody></table></td>
   </tr>
