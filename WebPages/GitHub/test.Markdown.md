@@ -205,9 +205,9 @@ Basic Syntax
     <td><table><thead><tr><th>One Cell</th></tr></thead><tbody></tbody></table></td>
   </tr>
   <tr>
-    <td>One Cell In side Other Cell Written In Html</td>
-    <td><p>&lt;table&gt;<br>&lt;thead&gt;<br>&lt;tr&gt;<br>&lt;th&gt;&lt;table&gt;<br>&lt;thead&gt;<br>&lt;tr&gt;<br>&lt;th&gt;One Cell&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;/thead&gt;<br>&lt;tbody&gt;<br>&lt;/tbody&gt;<br>&lt;/table&gt;&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;/thead&gt;<br>&lt;tbody&gt;<br>&lt;/tbody&gt;<br>&lt;/table&gt;</p></td>
-    <td><table><thead><tr><th><table><thead><tr><th>One Cell</th></tr></thead><tbody></tbody></table></th></tr></thead><tbody></tbody></table></td>
+    <td>One Cell In side Other Cell Written In Html </td>
+    <td><p>&lt;table&gt;<br>&lt;thead&gt;<br>&lt;tr&gt;<br>&lt;th&gt;&lt;table&gt;<br>&lt;thead&gt;<br>&lt;tr&gt;<br>&lt;th&gt;One Cell Inside Other Cell&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;/thead&gt;<br>&lt;tbody&gt;<br>&lt;/tbody&gt;<br>&lt;/table&gt;&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;/thead&gt;<br>&lt;tbody&gt;<br>&lt;/tbody&gt;<br>&lt;/table&gt;</p></td>
+    <td><table><thead><tr><th><table><thead><tr><th>One Cell Inside Other Cell</th></tr></thead><tbody></tbody></table></th></tr></thead><tbody></tbody></table></td>
   </tr>
 </tbody>
 </table>
