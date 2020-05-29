@@ -1,29 +1,6 @@
 
 
-| 1 | 2 |
-| --- | --- |
-| 3 | 4 |
 
-
-| Table |
-| --- |
-
-
-<table>
-<thead>
-  <tr>
-    <th>1</th>
-    <th>2</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <th><table><thead><tr><th>1</th></tr></thead><tbody></tbody></table></th>
-    <th><table><thead><tr><th>1</th><th>2</th></tr></thead><tbody><tr><th>3</th><th>4</th></tr></tbody></table></th>
-  </tr>
-</tbody>
-</table>
----
 
 Documentation **GitHub** MarkDown   <https://github.github.com/gfm/>  
 Documentation MarkDown              <https://spec.commonmark.org/0.29/>
@@ -212,6 +189,20 @@ Basic Syntax
 </tbody>
 </table>
 
+<table>
+<thead>
+  <tr>
+    <th>1</th>
+    <th>2</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th><table><thead><tr><th>1</th></tr></thead><tbody></tbody></table></th>
+    <th><table><thead><tr><th>1</th><th>2</th></tr></thead><tbody><tr><th>3</th><th>4</th></tr></tbody></table></th>
+  </tr>
+</tbody>
+</table>
 
 ---
 
