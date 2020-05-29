@@ -3,7 +3,7 @@
 ---
 Test
 
-[link](#1._Creating_new_folders_in_GitHub_repository_via_the_we_browser.)
+[link](#GitHub-Trics)
 ---
 
 
