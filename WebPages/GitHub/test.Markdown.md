@@ -72,7 +72,7 @@ Basic Syntax
   </tr>
   <tr>
     <td>Text Color<br><span style="font-weight:bold">Warning:</span><br>Text Color is not supported,<br> so You can try use html</td>
-    <td><p>&lt;p style="color: green"&gt;Hello World&lt;/p&gt;</p><br>(This is html)</td>
+    <td><p>&lt;p style="color: green"&gt;Hello World&lt;/p&gt;</p><br><br><span style="font-weight:bold">(This is html)</span></td>
     <td><p style="color:green">Hello World</p></td>
   </tr>
 </tbody>
@@ -142,7 +142,7 @@ Basic Syntax
 <tbody>
   <tr>
     <td>Block Quotes <br><span style="font-weight:bold">Warning:</span><br>Default is " &gt; " for line,<br>but this style is more difficult <br>to convert to another</td>
-    <td>&lt;blockquote&gt;<br>Hello<br> World<br>&lt;/blockquote&gt;<br> (this is html)<br></td>
+    <td>&lt;blockquote&gt;<br>Hello<br> World<br>&lt;/blockquote&gt;<br><span style="font-weight:bold">(This is html)</span><br></td>
     <td><blockquote>Hello<br> World</blockquote></td>
   </tr>
   <tr>
