@@ -78,7 +78,7 @@ Basic Syntax
   <tr>
     <td>Emphasis (Italic)</td>
     <td># Hello World 1<br>## Hello World 2<br>### Hello World 3<br>#### Hello World 4<br>##### Hello World 5<br>###### Hello World 6</td>
-    <td><h1>Hello World 1</h1><br><h2>Hello World 2</h2><br><h3>Hello World 3</h3><br><h4>Hello World 4</h4><br><h5>Hello World 4</h5><br><h6>Hello World 4</h6></td>
+    <td><h1>Hello World 1</h1><br><h2>Hello World 2</h2><br><h3>Hello World 3</h3><br><h4>Hello World 4</h4><br><h5>Hello World 5</h5><br><h6>Hello World 6</h6></td>
   </tr>
 </tbody>
 </table>
