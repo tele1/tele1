@@ -141,7 +141,7 @@ Basic Syntax
 </thead>
 <tbody>
   <tr>
-    <td><span style="font-weight:bold">Warning:</span><br>Default for Block Quotes is " &gt; " for line,<br>but this style is more difficult <br>to convert to another style</td>
+    <td><span style="font-weight:bold">Warning:</span><br>Default for Block Quotes is <br> &gt; Your Text  <br>for for each quoted line <br>but this style is more difficult <br>to convert to another style</td>
     <td>&lt;blockquote&gt;<br>Hello<br> World<br>&lt;/blockquote&gt;<br> <br><span style="font-weight:bold">(This is html)</span><br></td>
     <td><blockquote>Hello<br> World</blockquote></td>
   </tr>
