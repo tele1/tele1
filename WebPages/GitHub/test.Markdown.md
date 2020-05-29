@@ -1,8 +1,8 @@
 
 
-| Test | table |
+| 1 | 2 |
 | --- | --- |
-| Test | table |
+| 3 | 4 |
 
 
 | Table |
@@ -195,8 +195,13 @@ Basic Syntax
     <td><code>Hello<br> World</code></td>
   </tr>
   <tr>
+    <td>Table<br> <br><span style="font-weight:bold">Warning:</span><br>More advanced you can try in html</td>
+    <td><p>| 1 | 2 |<br />| --- | --- |<br />| 3 | 4 |</p></td>
+    <td><table><thead><tr><th>1</th><th>2</th></tr></thead><tbody><tr><th>3</th><th>4</th></tr></tbody></table></td>
+  </tr>
+  <tr>
     <td>One Cell From The Table</td>
-    <td>| One Cell |<br>| --- |</td>
+    <td><p>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;One Cell&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;</p></td>
     <td><table><thead><tr><th>One Cell</th></tr></thead><tbody></tbody></table></td>
   </tr>
 </tbody>
