@@ -97,3 +97,10 @@ https://help.github.com/articles/creating-a-personal-access-token-for-the-comman
 
 To wszystko,
  przyjemnego i bezpiecznego użytkowania z githuba. 
+
+# 5. GitHub Trics 
+
+### 1. Tworzenie nowych folderów w repozytorium przez przeglądarkę.
+
+Kiedy dodajesz nowy plik, spróbuj dodać " / "\
+Jeżeli chcesz edytować folder, edytuj całą ścieżkę klikając " Backspace " na klawiaturze.
