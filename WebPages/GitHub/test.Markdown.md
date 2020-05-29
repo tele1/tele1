@@ -200,8 +200,8 @@ Basic Syntax
     <td><table><thead><tr><th>1</th><th>2</th></tr></thead><tbody><tr><th>3</th><th>4</th></tr></tbody></table></td>
   </tr>
   <tr>
-    <td><span style="font-weight:bold">Warning:</span><br>More advanced you can try in html<br>One Cell From The Table In Html</td>
-    <td><p>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;One Cell&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;<br>/table&gt;</p></td>
+    <td><span style="font-weight:bold">Warning:</span><br>More advanced table you can try build in html<br>One Cell From The Table In Html</td>
+    <td><p>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;One Cell&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;/thead&gt;<br>&lt;tbody&gt;<br>&lt;/tbody&gt;<br>&lt;/table&gt;</p></td>
     <td><table><thead><tr><th>One Cell</th></tr></thead><tbody></tbody></table></td>
   </tr>
 </tbody>
