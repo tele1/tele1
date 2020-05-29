@@ -115,6 +115,11 @@ Basic Syntax
     <td>[Your Text](Path/to/other_file.md)</td>
     <td><span style="color:rgb(53, 49, 255)">Your Text</span></td>
   </tr>
+  <tr>
+    <td>Link To Header<br> <br>A very convenient way:<br> Open file on Github and click your ATX header<br>and you will have open link with header</td>
+    <td>[link](#hello-world-1)</td>
+    <td></td>
+  </tr>
 </tbody>
 </table>
 
@@ -168,6 +173,10 @@ Basic Syntax
 </tbody>
 </table>
 
+---
+Test
+
+[link](#hello-world-1)
 ---
 
 I tried also use AsciDoc with Markdown on GitHub, but it not worked or I don't know how use it.  
