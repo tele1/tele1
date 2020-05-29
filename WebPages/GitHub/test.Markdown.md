@@ -178,7 +178,7 @@ Basic Syntax
   </tr>
   <tr>
     <td><span style="font-weight:bold">Warning:</span><br>More advanced table you can try build in html<br> <br>One Cell From The Table In Html</td>
-    <td><p>&lt;table&gt;<br>&lt;thead&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&lt;th&gt;One Cell&lt;/th&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&lt;/thead&gt;<br>&lt;tbody&gt;<br>&lt;/tbody&gt;<br>&lt;/table&gt;</p></td>
+    <td><p>&lt;table&gt;<br>&lt;thead&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;One Cell&lt;/th&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&lt;/thead&gt;<br>&lt;tbody&gt;<br>&lt;/tbody&gt;<br>&lt;/table&gt;</p></td>
     <td><table><thead><tr><th>One Cell</th></tr></thead><tbody></tbody></table></td>
   </tr>
   <tr>
@@ -188,6 +188,7 @@ Basic Syntax
   </tr>
 </tbody>
 </table>
+
 
 <table>
 <thead>
