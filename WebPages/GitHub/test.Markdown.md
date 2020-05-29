@@ -1,12 +1,5 @@
 
 
----
-Test
-
-[Test link 1](#GitHub-Trics)
-[Test link 2](#GitHub_Trics)
-[Test link 3](#TestEnd)
----
 
 
 Documentation **GitHub** MarkDown   <https://github.github.com/gfm/>  
@@ -124,7 +117,7 @@ Basic Syntax
     <td><span style="color:rgb(53, 49, 255)">Your Text</span></td>
   </tr>
   <tr>
-    <td>Link To Header<br> <br>A very convenient way:<br> Open file on Github and click your ATX header<br>and you will have open link with header<br>but not working on website, <br>but only in repository</td>
+    <td>Link To Header<br> <br>A very convenient way:<br> Open file on Github and click your ATX header<br>and you will have open link with header<br> <span style="font-weight:bold">Warning:</span><br>Link to header not working on website, <br>but only in repository</td>
     <td>[Your Text](#GitHub-Trics)</td>
     <td> <a href="#GitHub-Trics">Your Text</a></td>
   </tr>
@@ -201,4 +194,3 @@ When you trying add new file, try add " / ".
 If you want edit folder, edit file inside this folder and click "Backspace" key on keyboard.
 
 
-# TestEnd
