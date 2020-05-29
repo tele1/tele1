@@ -75,6 +75,11 @@ Basic Syntax
     <td><p>&lt;p style="color: green"&gt;Hello World&lt;/p&gt;</p><br><br><span style="font-weight:bold">(This is html)</span></td>
     <td><p style="color:green">Hello World</p></td>
   </tr>
+  <tr>
+    <td>Emphasis (Italic)</td>
+    <td># Hello World 1<br>## Hello World 2<br>### Hello World 3<br>#### Hello World 4<br>##### Hello World 5<br>###### Hello World 6</td>
+    <td><h1>Hello World 1</h1><br><h2>Hello World 2</h2><br><h3>Hello World 3</h3><br><h4>Hello World 4</h4><br><h5>Hello World 4</h5><br><h6>Hello World 4</h6></td>
+  </tr>
 </tbody>
 </table>
 
@@ -141,7 +146,7 @@ Basic Syntax
 </thead>
 <tbody>
   <tr>
-    <td><span style="font-weight:bold">Warning:</span><br>Default for Block Quotes is <br> &gt; Your Text  <br>for for each quoted line <br>but this style is more difficult <br>to convert to another style</td>
+    <td><span style="font-weight:bold">Warning:</span><br>Default for Block Quotes is <br> &gt; Your Text  <br>for for each quoted line <br>but this style is more difficult <br>to convert to another style for me</td>
     <td>&lt;blockquote&gt;<br>Hello<br> World<br>&lt;/blockquote&gt;<br> <br><span style="font-weight:bold">(This is html)</span><br></td>
     <td><blockquote>Hello<br> World</blockquote></td>
   </tr>
