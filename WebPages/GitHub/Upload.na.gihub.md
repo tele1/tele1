@@ -102,5 +102,5 @@ To wszystko,
 
 ### 1. Tworzenie nowych folderów w repozytorium przez przeglądarkę.
 
-Kiedy dodajesz nowy plik, spróbuj dodać " / "\
+Kiedy dodajesz nowy plik, spróbuj dodać " / "  
 Jeżeli chcesz edytować folder, edytuj całą ścieżkę klikając " Backspace " na klawiaturze.

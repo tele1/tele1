@@ -7,7 +7,7 @@ Documentation MarkDown              <https://spec.commonmark.org/0.29/>
 
 Wiki  <https://en.wikipedia.org/wiki/Markdown>
 
-Basic Syntax/
+Basic Syntax  
 - <https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax>
 - <https://www.markdownguide.org/basic-syntax/>
 
@@ -160,7 +160,7 @@ Basic Syntax/
 
 ---
 
-I tried also use AsciDoc with Markdown on GitHub, but it not worked or I don't know how use it.
+I tried also use AsciDoc with Markdown on GitHub, but it not worked or I don't know how use it.  
 When I trying open web.asciidoc, web browser trying open to download it.
 
 Documentation AsciiDoc  <https://github.com/asciidoc/asciidoc/blob/master/doc/asciidoc.txt>
@@ -172,7 +172,8 @@ Wiki <https://en.wikipedia.org/wiki/.adoc>
 # GitHub Trics 
 
 ## 1. Creating new folders in GitHub repository via the we browser.
-When you trying add new file, try add " / ".
+
+When you trying add new file, try add " / ".  
 If you want edit folder, edit file inside this folder and click "Backspace" key on keyboard.
 
 
