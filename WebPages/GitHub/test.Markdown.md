@@ -3,7 +3,9 @@
 ---
 Test
 
-[link](#GitHub-Trics)
+[Test link 1](#GitHub-Trics)
+[Test link 2](#GitHub_Trics)
+[Test link 3](#TestEnd)
 ---
 
 
@@ -178,10 +180,7 @@ Basic Syntax
 </tbody>
 </table>
 
----
-Test
 
-[link](##-1.-Creating-new-folders-in-GitHub-repository-via-the-we-browser.)
 ---
 
 I tried also use AsciDoc with Markdown on GitHub, but it not worked or I don't know how use it.  
@@ -201,4 +200,4 @@ When you trying add new file, try add " / ".
 If you want edit folder, edit file inside this folder and click "Backspace" key on keyboard.
 
 
-
+# TestEnd
