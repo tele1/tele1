@@ -19,6 +19,7 @@ Basic Syntax
 - <https://www.markdownguide.org/basic-syntax/>
 
 ---
+
 # My Markdown Cheat Sheet / Examples 
 
 ## Line Break
@@ -123,9 +124,9 @@ Basic Syntax
     <td><span style="color:rgb(53, 49, 255)">Your Text</span></td>
   </tr>
   <tr>
-    <td>Link To Header<br> <br>A very convenient way:<br> Open file on Github and click your ATX header<br>and you will have open link with header<br>but not working for me</td>
-    <td>[link](#hello-world-1)</td>
-    <td></td>
+    <td>Link To Header<br> <br>A very convenient way:<br> Open file on Github and click your ATX header<br>and you will have open link with header<br>but not working on website, <br>but only in repository</td>
+    <td>[Your Text](#GitHub-Trics)</td>
+    <td> <a href="#GitHub-Trics">Your Text</a></td>
   </tr>
 </tbody>
 </table>
