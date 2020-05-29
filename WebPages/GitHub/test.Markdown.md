@@ -71,7 +71,7 @@ Basic Syntax
     <td><span style="font-style:italic">Hello World</span></td>
   </tr>
   <tr>
-    <td>Backslash escapes / Ignoring Markdown formatting</td>
+    <td>Backslash escapes <br> Ignoring Markdown formatting</td>
     <td>\*Hello World\*</td>
     <td>\*Hello World\*</td>
   </tr>
