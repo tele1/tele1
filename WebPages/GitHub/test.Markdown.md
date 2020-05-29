@@ -186,7 +186,7 @@ Wiki <https://en.wikipedia.org/wiki/.adoc>
 
 ---
 
-# [GitHub Trics]
+# GitHub Trics
 
 ## 1. Creating new folders in GitHub repository via the we browser.
 
