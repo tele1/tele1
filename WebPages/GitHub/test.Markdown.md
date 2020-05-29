@@ -71,6 +71,11 @@ Basic Syntax
     <td><span style="font-style:italic">Hello World</span></td>
   </tr>
   <tr>
+    <td>Backslash escapes / Ignoring Markdown formatting</td>
+    <td>\*Hello World\*</td>
+    <td>\*Hello World\*</td>
+  </tr>
+  <tr>
     <td><span style="font-weight:bold">Warning:</span><br>Text Color is not supported,<br> but You can try use html</td>
     <td><p>&lt;p style="color: green"&gt;Hello World&lt;/p&gt;</p><br><br><span style="font-weight:bold">(This is html)</span></td>
     <td><p style="color:green">Hello World</p></td>
