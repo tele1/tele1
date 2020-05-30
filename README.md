@@ -54,7 +54,7 @@ If you don't understand something, use the online translator, for example google
 
 ## About blog
 
-The best license for a blog is GNU GPL. Read this https://www.gnu.org/licenses/gpl-3.0.html
+The best license for a blog is GNU GPL. Read this <https://www.gnu.org/licenses/gpl-3.0.html>
 
 ```
 Reasons
