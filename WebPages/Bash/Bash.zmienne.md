@@ -24,21 +24,21 @@ echo "$a"
 ```
 
 
- Cudzysow ma tutaj podwojne znaczenie,
-
-    po pierwsze ciagi znakow oddzielone spacja zazwyczaj pisze sie w cudzyslowie,
-
-    a po drugie gdyby dac wynik bez cudzyslowia, zawartosc wyswietlilaby sie tylko w 1 linii.
+ Cudzysow ma tutaj podwojne znaczenie,  
+-   po pierwsze ciagi znakow oddzielone spacja zazwyczaj pisze sie w cudzyslowie,  
+-   a po drugie gdyby dac wynik bez cudzyslowia, zawartosc wyswietlilaby sie tylko w 1 linii.
 
 
-- Zapis szczegolny
+- Zapis szczegolny  
   Jesli musimy uzyc zmiennej bez spacji np. $a i ona koliduje z innymi znakami to mozna ja jeszcze zapisac tak
+
 ```
 ${a}
 ```
 
 
 - Przekierowanie zmiennej
+
 ```
 a=$(ls)
 i=4
@@ -51,11 +51,15 @@ i = 4
 c = 4 piersze katalogi lub pliki ze zmiennej $a
 
  W tym przykladzie w ostatniej linii ( w zmiennej $c )
- <<< "$a" zostalo podane zamiast sciezki do pliku
-czyli jest to przekierowanie zawartosci zmiennej  $a do awk,
-zamiast zawartosci pliku.
 
-Awk natomiast pokaze tylko to co w linii o numerze $i ,
+```
+ <<< "$a" 
+```
+
+zostalo podane zamiast sciezki do pliku,  
+ czyli jest to przekierowanie zawartosci zmiennej  $a do awk, zamiast zawartosci pliku.
+
+Awk natomiast pokaze tylko to co w linii o numerze $i,  
 czyli pokaze tylko zawartosc 4 linii ze zmiennej $a i wynik bedzie przypisany zmiennej $c .
 
 
@@ -103,39 +107,41 @@ czyli pokaze tylko zawartosc 4 linii ze zmiennej $a i wynik bedzie przypisany zm
     echo "$e"
 ```
 
-Przykład pokazuje jak operować danymi bez zapisywania do pliku.
-Może się także przydać do bardziej zaawansowanych rzeczy na plikach i folderach, aczkolwiek nie należy go traktować tylko do wyszukiwania plików,
+Przykład pokazuje jak operować danymi bez zapisywania do pliku.  
+Może się także przydać do bardziej zaawansowanych rzeczy na plikach i folderach, aczkolwiek nie należy go traktować tylko do wyszukiwania plików,  
 ponieważ tylko do wyszukania plików lub katalogów wystarczy komenda find i jej opcje wyszukiwania.
 
 ___________________________________________________________
 
-Edytowane:
+### Edytowane:
+
 W przykładzie wkradł się mały  błąd ...
 
 ```
 echo "$a" | wc -l
 ```
 
-wc liczy prawidłowo dopóki ma cokolwiek do liczenia,
+wc liczy prawidłowo dopóki ma cokolwiek do liczenia,  
 problem się pojawi gdy zmienna $a będzie pusta.
+
 ```
 $ echo "" | wc -l
 1
 ```
 
 
-Winne temu jest echo które pozostawia po sobie pustą linię
-i wc je zlicza.
+Winne temu jest echo które pozostawia po sobie pustą linię i " wc " je zlicza.
 
 
 Jak zaradzić ?
 - Można nie używać echo
+
 ```
 ls "$a1" | wc -l
 ```
 
-- Można usunąć puste linie
-http://stackoverflow.com/questions/16414410/delete-empty-lines-using-sed
+- Można usunąć puste linie  
+<http://stackoverflow.com/questions/16414410/delete-empty-lines-using-sed>
 
 ```
 $ echo "" | grep "\S" | wc -l
