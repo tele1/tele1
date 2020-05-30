@@ -238,10 +238,12 @@ $ tree
 ```
 
 Tree ladnie wyswietlilo strukture, ale nie kazdy przeciez musi   
-  miec zainstalowane tree. Wkazdym razie wyraznie pokazuje ze mam  
+  miec zainstalowane tree.   
+W kazdym razie wyraznie pokazuje ze mam  
  1 katalog i 8 plikow (6 + 2 w katalogu tt).
 
-```$ ls -R
+```
+$ ls -R
 .:
 libaudit.so.0@  MumbleAutomaticCertificateBackup.p12  pluskwa.odt  tt/
 ls wc l.png     plush-tux_17-208012958.jpg            sad.odt
