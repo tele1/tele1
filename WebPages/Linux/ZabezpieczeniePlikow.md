@@ -10,6 +10,7 @@ i - uniemożliwia wykonywanie operacji na pliku (edycja, zmiana nazwy, kasowanie
 #### Przykład jak zabezpieczyć plik **.bashrc** w katalogu domowym.
 
 1. Sprawdzamy plik
+
 ```sh
 $ ls -la
 razem 344
@@ -44,8 +45,8 @@ $ lsattr .bashrc
 ----i---------e--- .bashrc
 ```
 
-4. Jeśli chciałbyś cofnąć zmiany / odznaczyć atrybut pliku 
-Z konta root
+4. Jeśli chciałbyś cofnąć zmiany / odznaczyć atrybut pliku  
+Z konta root wykonujesz polecenie
 
 ```sh
 # chattr -i .bashrc
