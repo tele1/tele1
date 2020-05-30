@@ -3,11 +3,9 @@
 # bash - Liczenie plikow i folderow.
  
 ## 1.  Jak policzyc pliki i foldery w danym folderze ?
-- Komenda ls wyswietli zarowno
-pliki jak i katalogi.
 
-
-- No ale jak to policzyc ? 
+Komenda ls wyswietli zarowno pliki jak i katalogi.  
+- No ale jak to policzyc ?   
 Z pomoca przyjdzie nam " wc -l "
 
 ```
@@ -15,11 +13,9 @@ $ ls  | wc -l
 38
 ```
 
-37 to ilosc naszych plikow i folderow w folderze w ktorym wpisalismy
-ta komende.
-- Jak to ? Ale tam bylo tylko 13 linii.
-- W tym przypadku to specjalnie podzielono linie w takie 3 kolumny,
-taki tryb widoku.
+37 to ilosc naszych plikow i folderow w folderze w ktorym wpisalismy ta komende.  
+- Jak to ? Ale tam bylo tylko 13 linii.  
+- W tym przypadku to specjalnie podzielono linie w takie 3 kolumny, taki tryb widoku.
 
 ```
   |      -   to potok, wynik polecen przed tym znakiem
@@ -31,33 +27,32 @@ taki tryb widoku.
 ```
 
 ### TIP:
-Komenda **find** także wyszuka Ci pliki.
 
+Komenda **find** także wyszuka Ci pliki.  
 Zaletą bash jest to że możesz różnymi komendami rozwiązać zadanie :-)
 
 
 ## 2.  Jak policzyc pliki i foldery w danym folderze, ale razem z ukrytymi ?
 
-
-Nalezy dodac  opcje -a ,
+Nalezy dodac  opcje -a ,  
 Nalezy jednak wziasc cos pod uwage...
 
-Przyklad:
 
-W folderze mam:
-1 folder , 5 plikow widocznych , 1 plik ukryty
+#### Przyklad:
+
+W folderze mam:  
+1 folder , 5 plikow widocznych , 1 plik ukryty  
 co daje razem 7 wszystkiego, zobaczmy czy tak bedzie ...
 
-Pokazuje 9 plikow, w tym ./ i ../ cos takiego (foldery),
-wypadaloby sie tego jakos pozbyc.
+Pokazuje 9 plikow, w tym ./ i ../ cos takiego (foldery),  
+wypadaloby sie tego jakos pozbyc.  
 - Moze od tych 9 odjac 2 ?
 
   OK :-)
 
-W bashu dzialania arytmetyczne wykonujemy w nawiasach 
- kwadratowych $[ ] , aby nie bylo bledu skladni oraz 
-zeby bash znal kolejnosc wykonywanych zadan wypadaloby
-ls -a | wc -l umiescic w takim $( ) nawiasie, a potem od tego odjac 2  
+W bashu dzialania arytmetyczne wykonujemy w nawiasach kwadratowych $[ ] ,  
+ aby nie bylo bledu skladni oraz zeby bash znal kolejnosc wykonywanych zadan wypadaloby  
+ls -a | wc -l umiescic w takim $( ) nawiasie, a potem od tego odjac 2
 
 ```
 [gg@localhost Documents]$ echo $[ $(ls -a | wc -l) ]
@@ -66,18 +61,18 @@ ls -a | wc -l umiescic w takim $( ) nawiasie, a potem od tego odjac 2
 7
 ```
 
-echo dalem celowo inaczej terminal / konsola 
+echo dalem celowo inaczej terminal / konsola   
 bedzie szukac takiej komendy, w tym przypadku liczby.
 
 
 ## 3. Jak policzyc tylko pliki lub foldery ?
 
-- Zeby tego dokonac trzeba pierw rozpoznac ktora z wymienionych 
+- Zeby tego dokonac trzeba pierw rozpoznac ktora z wymienionych   
        nazw jest plikiem, a ktora katalogiem.
 
-       Ktos powie ze katalogi maja na koncu " / " i sa innego koloru
-       Sluszna uwaga ... ale nalezy wziasc pod uwage:
-       *      pliki moga zawierac znak / choc moze i nie na koncu
+       Ktos powie ze katalogi maja na koncu " / " i sa innego koloru  
+       Sluszna uwaga ... ale nalezy wziasc pod uwage:  
+       *      pliki moga zawierac znak / choc moze i nie na koncu  
        *      kolory skladni zaleza od ustawien w danym systemie   
 
       Wiecej opcji ls znajdziemy wpisujac w terminalu ls 
@@ -104,19 +99,17 @@ drwxrwxr-x  2 gg   gg     4096 Oct 22 01:57 aRPM/
 drwxrwxr-x  3 root gg     4096 Nov 20 11:14 b-RPM/
 ```
 
-opcja -l daje bardziej szczegolowe informacje o plikach i folderach. 
-
-       Jesli piewszym znakiem jest
-       d oznacza katalog (directory), 
-       - oznacza plik.
+- Opcja " -l " daje bardziej szczegolowe informacje o plikach i folderach. 
+- Jesli piewszym znakiem jest " d " to oznacza on katalog (directory), 
+- Jesli kreska " - " to oznacza on  plik.
              
-     Wiecej informacji o tych atrybutach mozna znalesc w sieci:
-                 www.cybertech.net.pl/atrybuty
-                 http://linoxide.com/howto-show-file-attributes-in-linux/ 
+     Wiecej informacji o tych atrybutach mozna znalesc w sieci:  
+                 <www.cybertech.net.pl/atrybuty>  
+                 <http://linoxide.com/howto-show-file-attributes-in-linux/>
 
-      - Ale jak wyciagnac z tego te informacje tylko te ktore chcemy ?
-
+- Ale jak wyciagnac z tego te informacje tylko te ktore chcemy ?  
 Jesli chcemy zobaczyc tylko widoczne pliki
+
 ```
 $ ls -l | grep -v "^d"
 total 212
@@ -134,15 +127,15 @@ grep "tekst" - pokaze nam linie tylko zawierare slowo tekst.
                                litery d , znak ^ jest wyrazeniem regularnym.
 ```
 
-http://jakilinux.org/konsola/wyszukiwanie-wyrazenia-regularne/
+<http://jakilinux.org/konsola/wyszukiwanie-wyrazenia-regularne/>
 
 
 
-Komenda wc -l  by nam te linie ladnie policzyla, ale komenda ls -l
+Komenda " wc -l " by nam te linie ladnie policzyla, ale komenda " ls -l "  
 pokazuje rowniez " total 212 " a to nie jest plik ani katalog.
 
-Moze odejmiemy jedna linie ?
-Ok, wiec damy to najpierw w $( ) a potem odejmiemy 1
+Moze odejmiemy jedna linie ?  
+Ok, wiec damy to najpierw w $( ) a potem odejmiemy 1  
 i damy wszystko w nawias $[ ] aby obliczylo. 
 
 ```
@@ -159,17 +152,13 @@ i damy wszystko w nawias $[ ] aby obliczylo.
 
 ## 4. Jak policzyc tylko pliki lub foldery razem z ukrytymi ?
 
-      Oczywiscie dodajesz a do ls ( ls -la ) jak w pkt.2 
-
+      Oczywiscie dodajesz a do ls ( ls -la ) jak w pkt.2   
       ale najpierw prztestuj kazde z polecen jak to bedzie dzialac.
 
-
-
- Musisz zwrocic uwage na ./ ../ przy wyniku ls,
+ Musisz zwrocic uwage na ./ ../ przy wyniku ls,  
 jak bedziesz chcial policzyc linie przy pomocy polecenia wc -l .
 
-
-    Policzmy sobie pliki + pliki ukryte:
+Policzmy sobie pliki + pliki ukryte:
 
 ```
 $ ls -la | grep "^-"
@@ -185,6 +174,7 @@ $ ls -la | grep "^-" | wc -l
 ```
 
 Policzmy sobie foldery + foldery ukryte: 
+
 ```
 $ ls -la | grep "^d"
 drwxr-xr-x  3 gg gg  4096 Jan  6 04:47 ./
@@ -228,8 +218,7 @@ total 220
 ## 5. Jak policzyc pliki i foldery w danym folderze i jego podfolderach ?  
 
 
-Najpierw sobie przetestuje na katalogu "Documents"
-
+Najpierw sobie przetestuje na katalogu "Documents"  
 Zaczne od sprawdzenia ile mam plikow w katalogu i podkatalogu tt. 
 
 ```
@@ -248,8 +237,8 @@ $ tree
 1 directory, 8 files
 ```
 
-Tree ladnie wyswietlilo strukture, ale nie kazdy przeciez musi 
-  miec zainstalowane tree. Wkazdym razie wyraznie pokazuje ze mam
+Tree ladnie wyswietlilo strukture, ale nie kazdy przeciez musi   
+  miec zainstalowane tree. Wkazdym razie wyraznie pokazuje ze mam  
  1 katalog i 8 plikow (6 + 2 w katalogu tt).
 
 ```$ ls -R
@@ -264,19 +253,21 @@ $ echo $[ $(ls -R | wc -l) -3 ]
 9
 ```
 
- Mam 9 razem plikow i folderow razem.
-Skad wielem opcje -R ?
+Mam 9 razem plikow i folderow razem.  
+- Skad wielem opcje -R ?
 Ta opcje znajdziemy zapoznajac sie z pomocami po wpisaniu polecen
-        man ls   
+
+>        man ls   
+
 oraz 
-        ls --help
+
+>        ls --help
 
 
-Policzmy sobie ile plikow i folderow razem mam w systemie :-)
-  - W tym celu trzeba przejsc do katalogu glownego.
-  - Zrobie to z pod root abym mial dostep do kazdego katalogu.
-  - Dodam jeszcze polecenie time w celu pokazania czasu ile
-      zajelo  liczenie. 
+Policzmy sobie ile plikow i folderow razem mam w systemie :-)  
+  - W tym celu trzeba przejsc do katalogu glownego.  
+  - Zrobie to z pod root abym mial dostep do kazdego katalogu.  
+  - Dodam jeszcze polecenie time w celu pokazania czasu ile zajelo  liczenie. 
 
 ```
 # cd /
@@ -293,7 +284,7 @@ user 0m1.892s
 sys 0m4.358s
 ```
 
-1 157 503 plikow i folderow razem (nie liczac ukrytych),
+1 157 503 plikow i folderow razem (nie liczac ukrytych),  
     liczenie tego zajelo ponad minute. 
 
 Jezeli artykul zawiera błedy, niedoskonałości to daj znać.
