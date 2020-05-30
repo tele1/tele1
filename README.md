@@ -17,6 +17,7 @@ If you don't understand something, use the online translator, for example google
 - [Debug Bash](WebPages/Bash/DebugBash.md) [PL]
 - [Wyszukiwanie słów w plikach](WebPages/Bash/grep.md) [PL]
 - [Liczenie plików w terminalu](WebPages/Bash/LiczeniePlikow.md) [PL]
+- [Tworzenie plików z root](WebPages/Bash/BashRoot.md) [PL]
 
 
 ## GitHuB
@@ -32,7 +33,6 @@ If you don't understand something, use the online translator, for example google
 - [Szybki podgląd exif](WebPages/Linux/Exif.md) [PL]
 - [Test prędkości USB](WebPages/Linux/FastUSB.md) [PL]
 - [Exportowanie nie eksportowalnych zakładek Firefox](WebPages/Linux/NewFirefoxProblem.md) [PL]
-- [Tworzenie plików z root](WebPages/Linux/BashRoot.md) [PL]
 - [Compile Gtkdialog on Debian 8.8](WebPages/Linux/GtkDialogForDebian.md) [EN]
 - [Badanie problemu z internetem](WebPages/Linux/InternetDebug.md) [PL]
 - [How get new qtox for Debian ?](WebPages/Linux/QtoxForDebian.md) [EN]
