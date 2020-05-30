@@ -104,7 +104,6 @@ drwxrwxr-x  3 root gg     4096 Nov 20 11:14 b-RPM/
 - Jesli kreska " - " to oznacza on  plik.
              
      Wiecej informacji o tych atrybutach mozna znalesc w sieci:  
-                 <www.cybertech.net.pl/atrybuty>  
                  <http://linoxide.com/howto-show-file-attributes-in-linux/>
 
 - Ale jak wyciagnac z tego te informacje tylko te ktore chcemy ?  
