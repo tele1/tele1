@@ -23,6 +23,7 @@ If you don't understand something, use the online translator, for example google
 - [Wysyłanie plików na GitHub](WebPages/GitHub/Upload.na.gihub.md) [PL]
 - [Tworzenie wlasnej strony lub bloga na GitHub](WebPages/GitHub/Wlasna.strona.na.GitHub.md) [PL]
 - [Dlaczego lubię i nie lubię Markdown](WebPages/GitHub/Dlaczego.markdown.md) [PL]
+- [Generatory ramek w html](WebPages/GitHub/HTML.Ramka.md) [PL]
 - My Cheat Sheet
     - [Markdown](WebPages/GitHub/test.Markdown.md) [EN]
 
@@ -33,13 +34,14 @@ If you don't understand something, use the online translator, for example google
 - [Exportowanie nie eksportowalnych zakładek Firefox](WebPages/Linux/NewFirefoxProblem.md) [PL]
 - [Tworzenie plików z root](WebPages/Linux/BashRoot.md) [PL]
 - [Compile Gtkdialog on Debian 8.8](WebPages/Linux/GtkDialogForDebian.md) [EN]
-- [Generator ramek i kolorowania składni w html](WebPages/Linux/HTML.Ramka.md) [PL]
 - [Badanie problemu z internetem](WebPages/Linux/InternetDebug.md) [PL]
 - [How get new qtox for Debian ?](WebPages/Linux/QtoxForDebian.md) [EN]
 - [Serwer czasu w Debianie](WebPages/Linux/SerwerCzasu.md) [PL]
 - [Automatyczne wyłączanie komputera po zaniku prądu](WebPages/Linux/UPS.Fuse.md) [PL]
 - [Błąd przy montowaniu dysku .vdi](WebPages/Linux/VirtualboxMountError.md) [PL]
 - [Jak skompilować i zainstalować nowszy yad w Debianie](WebPages/Linux/YadWDebianie.md) [PL]
+- [Zabezpieczenie plików przy pomocy chattr](WebPages/Linux/ZabezpieczeniePlikow.md) [PL]
+
 
 
 ## Free thought
@@ -47,6 +49,8 @@ If you don't understand something, use the online translator, for example google
 - [XXI wiek](WebPages/Think/XXI.md) [PL]
 - [Domowe leczenie](WebPages/Think/leczenie.md) [PL]
 - [Przywłaszczenie linków](WebPages/Think/Linki.md) [PL]
+- [Nauka w szkole](WebPages/Think/NaukaWSzkole.md) [PL]
+
 
 ## About blog
 

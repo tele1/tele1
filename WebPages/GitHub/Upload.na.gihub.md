@@ -18,7 +18,9 @@ git clone https://github.com/nazwa_uzytkownika/nazwa_projektu
 
 Przykład:
 
-`git clone https://github.com/tele1/gdi `
+```
+git clone https://github.com/tele1/gdi
+```
 
 
 Więcej na:
@@ -98,9 +100,41 @@ https://help.github.com/articles/creating-a-personal-access-token-for-the-comman
 To wszystko,
  przyjemnego i bezpiecznego użytkowania z githuba. 
 
+
 # 5. GitHub Trics 
 
 ### 1. Tworzenie nowych folderów w repozytorium przez przeglądarkę.
 
 Kiedy dodajesz nowy plik, spróbuj dodać " / "  
 Jeżeli chcesz edytować folder, edytuj całą ścieżkę klikając " Backspace " na klawiaturze.
+
+
+### 2. Linux Alias
+
+1. Dodaj na końcu pliku .bashrc
+
+```
+###########################{
+GITGIT(){
+if [[ -d ".git" ]] ;then
+	git add -A ;  git commit -m 'update'
+	DIR_NAME="${PWD##*/}"
+	git push https://github.com/your_user_name/${DIR_NAME} master
+else
+	echo "Folder .git not found to update this `pwd` repository."
+fi
+}
+# Usage: gitupdate name_repository
+alias gitupdate='GITGIT'
+###########################}
+```
+
+2. Zaktualizuj aktualną bazę aliasów.
+
+```
+source ~/.bashrc.
+```
+
+3. Przetestuj alias
+
+4. Zabezpiecz plik przy pomocy " chattr +i "
