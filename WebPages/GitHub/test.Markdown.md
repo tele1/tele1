@@ -173,7 +173,7 @@ Basic Syntax
   </tr>
   <tr>
     <td><span style="font-weight:bold">Warning:</span><br>Code Block also is the line which contains at the beginning 8 spaces or two tabs.”</td>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello World</td>
+    <td>(8 spaces or 2 tabs)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello World</td>
     <td><code>Hello<br> World</code></td>
   </tr>
   <tr>
