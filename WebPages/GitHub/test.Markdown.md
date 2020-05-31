@@ -183,12 +183,12 @@ Basic Syntax
   </tr>
   <tr>
     <td><span style="font-weight:bold">Warning:</span><br>More advanced table you can try build in html<br> <br>One Cell From The Table In Html</td>
-    <td><p>&lt;table&gt;<br>&lt;thead&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;One Cell&lt;/th&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&lt;/thead&gt;<br>&lt;tbody&gt;<br>&lt;/tbody&gt;<br>&lt;/table&gt;<br> <br><span style="font-weight:bold">(This is html)</p></td>
+    <td><p>&lt;table&gt;<br>&lt;thead&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;One Cell&lt;/th&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&lt;/thead&gt;<br>&lt;tbody&gt;<br>&lt;/tbody&gt;<br>&lt;/table&gt;</p><br> <br><span style="font-weight:bold">(This is html)</td>
     <td><table><thead><tr><th>One Cell</th></tr></thead><tbody></tbody></table></td>
   </tr>
   <tr>
     <td>Other Example Table In Html</td>
-    <td><p>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;External Cell&lt;br&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Middle Cell&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;<br> <br><span style="font-weight:bold">(This is html)</p></td>
+    <td><p>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;External Cell&lt;br&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Middle Cell&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;</p><br> <br><span style="font-weight:bold">(This is html)</td>
     <td><table><thead><tr><th>External Cell<br><table><thead><tr><th>Middle Cell</th></tr></thead><tbody></tbody></table></th></tr></thead><tbody></tbody></table></td>
   </tr>
   <tr>
@@ -214,6 +214,7 @@ Basic Syntax
   </tr>
 </tbody>
 </table>
+
 
 ---
 
