@@ -191,6 +191,11 @@ Basic Syntax
     <td><p>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;External Cell&lt;br&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Middle Cell&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;/tbody&gt;&lt;/table&gt;</p></td>
     <td><table><thead><tr><th>External Cell<br><table><thead><tr><th>Middle Cell</th></tr></thead><tbody></tbody></table></th></tr></thead><tbody></tbody></table><br> <br><span style="font-weight:bold">(This is html)</td>
   </tr>
+  <tr>
+    <td>Thematic breaks / Horizontal rule / Line</td>
+    <td><p>---</p></td>
+    <td><hr width="100%"></td>
+  </tr>
 </tbody>
 </table>
 
