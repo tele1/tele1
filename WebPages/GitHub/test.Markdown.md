@@ -162,13 +162,18 @@ Basic Syntax
     <td><blockquote>Hello<br> World</blockquote></td>
   </tr>
   <tr>
-    <td>Code Spans</td>
+    <td>Code Spans / Code Block</td>
     <td>```<br>Hello<br> World<br>```</td>
     <td><code>Hello<br> World</code></td>
   </tr>
   <tr>
     <td>Code With Syntax Highlighting</td>
     <td>```sh<br>Hello<br> World<br>```</td>
+    <td><code>Hello<br> World</code></td>
+  </tr>
+  <tr>
+    <td><span style="font-weight:bold">Warning:</span><br>Code Block also is the line which contains at the beginning 8 spaces or two tabs.”</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello World</td>
     <td><code>Hello<br> World</code></td>
   </tr>
   <tr>

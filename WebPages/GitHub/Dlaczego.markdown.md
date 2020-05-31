@@ -51,14 +51,16 @@ Cytat często zawiera wiele linii. Markdown nie posiada odpowiednika code
            
  Może przy pisaniu nie jest to tak istotne, co przy konwertowaniu plików.
  
-- Wymuszanie odstępów zamiast nowej linii.
-
-Nie zadziała Enter, kiedy chcesz przenieść tekst do nowej linii. Musisz zrobić odpowiedni odstęp.
+- Wymuszanie odstępów zamiast nowej linii.  
+Na początku był problem, bo nie wiedziałem, że dwie spacje na końcu pierwszej linii, działa jak Enter.  
+Nie było tego w podstawowych poradnikach, ale jest w głównej dokumentacji.  
+Jest to istotne, ponieważ gdy już masz odpowiednio przygotowany tekst, to bez tego tekst będzie wyświetlany w jednej linii.
 
 - Zaletą wcięć jest że przy odpowiednich odstępach wcięciach (2x Tab lub 8 spacji) markdown sam rozpoznaje kod / cytat,
 
         Przykład :)
 
-- Brak kolorów. 
-
+- Brak kolorów.   
 Kolory są przydatne przy wyjaśnianiu / tłumaczeniu pewnych rzeczy w poradników.
+
+***Edytowane***
