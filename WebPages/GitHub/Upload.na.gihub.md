@@ -123,12 +123,18 @@ alias gitupdate='GITGIT'
 ###########################}
 ```
 
-2. Zaktualizuj aktualną bazę aliasów.
+2. Zaktualizuj link w dodanym na końcu fragmencie.  
+A dokładnie "your_user_name" , natomiast "${DIR_NAME}" pozostaw niezmienione.  
+Kiedy wykonasz komende "gitupdate" w danym repozytorium to zmienna "${DIR_NAME}" bedzie automatycznie uzupelniana na podstawie polecenia "pwd".
+
+3. Zaktualizuj aktualną bazę aliasów komendą:
 
 ```
 source ~/.bashrc.
 ```
 
-3. Przetestuj alias
+3. Przetestuj alias.  
+Wykonaj polecenie " gitupdate " w danym repozytorium aby wyslac plik.
 
-4. Zabezpiecz plik przy pomocy " chattr +i " <https://tele1.github.io/WebPages/Linux/ZabezpieczeniePlikow.html>
+
+4. Zabezpiecz plik .bashrc przy pomocy " chattr +i " <https://tele1.github.io/WebPages/Linux/ZabezpieczeniePlikow.html>
