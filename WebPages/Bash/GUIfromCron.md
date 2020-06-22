@@ -20,3 +20,20 @@
 ```
 * * * * * export DISPLAY=:0  ; sudo -u tele xmessage -center -buttons Ok:0 "Hello world"
 ```
+
+
+
+
+#### Warning:
+
+If you run script at computer startup, for example:
+
+```
+@reboot /your/script
+```
+
+And command or script does not show GUI, try add time, for example:
+
+```
+@reboot sleep 120 && /your/script
+```
