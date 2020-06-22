@@ -18,6 +18,7 @@ If you don't understand something, use the online translator, for example google
 - [Wyszukiwanie słów w plikach](WebPages/Bash/grep.md) [PL]
 - [Liczenie plików w terminalu](WebPages/Bash/LiczeniePlikow.md) [PL]
 - [Tworzenie plików z root](WebPages/Bash/BashRoot.md) [PL]
+- [How run GUI window from cron](WebPages/Bash/GUIfromCron.md) [ ]
 
 
 ## GitHuB
@@ -41,7 +42,6 @@ If you don't understand something, use the online translator, for example google
 - [Błąd przy montowaniu dysku .vdi](WebPages/Linux/VirtualboxMountError.md) [PL]
 - [Jak skompilować i zainstalować nowszy yad w Debianie](WebPages/Linux/YadWDebianie.md) [PL]
 - [Zabezpieczenie plików przy pomocy chattr](WebPages/Linux/ZabezpieczeniePlikow.md) [PL]
-
 
 
 ## Free thought
