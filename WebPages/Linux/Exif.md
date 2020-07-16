@@ -21,3 +21,15 @@ $ strings  picture.jpeg | grep exif
   <exif:PixelYDimension>768</exif:PixelYDimension>
 ```
 
+Or better way
+
+```
+grep': strings * | grep -i exif
+```
+
+
+#Remove all exif from files inside this folder.
+
+```
+exiftool -all= *
+```
