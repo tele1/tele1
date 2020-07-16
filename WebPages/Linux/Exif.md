@@ -28,7 +28,7 @@ grep': strings * | grep -i exif
 ```
 
 
-#Remove all exif from files inside this folder.
+# Remove all exif from files inside this folder.
 
 ```
 exiftool -all= *
