@@ -24,7 +24,7 @@ $ strings  picture.jpeg | grep exif
 Or better way
 
 ```
-grep': strings * | grep -i exif
+strings * | grep -i exif
 ```
 
 
