@@ -218,23 +218,6 @@ Basic Syntax
 
 ## Wrapping
 
-Code
-
-```
-<details><summary>Your text</summary><p>
-
-```
-Your long code
-```
-</p></details>
-```
-
-Example:
-
-
-
-
-
 <table>
 <thead>
   <tr>
@@ -246,7 +229,7 @@ Example:
 <tbody>
   <tr>
     <td>Wrapping</td>
-    <td>![text](/Path/to/file.jpeg)</td>
+    <th>&lt;details&gt;&lt;summary&gt;Your text&lt;/summary&gt;&lt;p&gt;<br>```<br>Your code<br><br>```<br>&lt;/p&gt;&lt;/details&gt;<br></th>
     <td><details><summary>Your text</summary><p>
 
 ```
