@@ -231,12 +231,31 @@ Your long code
 
 Example:
 
-<details><summary>Your text</summary><p>
+
+
+
+
+<table>
+<thead>
+  <tr>
+    <th><span style="font-weight:bold">Name</span></th>
+    <th><span style="font-weight:bold">Soure code Markdown</span></th>
+    <th><span style="font-weight:bold">Output Markdown</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Wrapping</td>
+    <td>![text](/Path/to/file.jpeg)</td>
+    <td><details><summary>Your text</summary><p>
 
 ```
 Your long code
 ```
-</p></details>
+</p></details></td>
+  </tr>
+</tbody>
+</table>
 
 ---
 
