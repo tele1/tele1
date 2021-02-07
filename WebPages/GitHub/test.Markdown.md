@@ -258,4 +258,5 @@ Wiki <https://en.wikipedia.org/wiki/.adoc>
 When you trying add new file, try add " / ".  
 If you want edit folder, edit file inside this folder and click "Backspace" key on keyboard.
 
-
+## 2. Create table with html (htlm table online)
+<https://www.tablesgenerator.com/html_tables>
