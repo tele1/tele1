@@ -215,6 +215,29 @@ Basic Syntax
 </tbody>
 </table>
 
+
+## Wrapping
+
+Code
+
+```
+<details><summary>Your text</summary><p>
+
+```
+Your long code
+```
+</p></details>
+```
+
+Example:
+
+<details><summary>Your text</summary><p>
+
+```
+Your long code
+```
+</p></details>
+
 ---
 
 I tried also use AsciDoc with Markdown on GitHub, but it not worked or I don't know how use it.  
