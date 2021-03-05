@@ -130,7 +130,7 @@ Kiedy wykonasz komende "gitupdate" w danym repozytorium to zmienna "${DIR_NAME}"
 3. Zaktualizuj aktualną bazę aliasów komendą:
 
 ```
-source ~/.bashrc.
+source ~/.bashrc
 ```
 
 3. Przetestuj alias.  
