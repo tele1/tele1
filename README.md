@@ -42,6 +42,7 @@ If you don't understand something, use the online translator, for example google
 - [Błąd przy montowaniu dysku .vdi](WebPages/Linux/VirtualboxMountError.md) [PL]
 - [Jak skompilować i zainstalować nowszy yad w Debianie](WebPages/Linux/YadWDebianie.md) [PL]
 - [Zabezpieczenie plików przy pomocy chattr](WebPages/Linux/ZabezpieczeniePlikow.md) [PL]
+- [Sandbox - Firejail](WebPages/Linux/Firejail.md) [EN]
 
 
 ## Free thought
