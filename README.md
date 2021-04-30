@@ -43,6 +43,8 @@ If you don't understand something, use the online translator, for example google
 - [Jak skompilować i zainstalować nowszy yad w Debianie](WebPages/Linux/YadWDebianie.md) [PL]
 - [Zabezpieczenie plików przy pomocy chattr](WebPages/Linux/ZabezpieczeniePlikow.md) [PL]
 - [Sandbox - Firejail](WebPages/Linux/Firejail.md) [EN]
+- [Useful commands about files and packages on Linux Mint.](WebPages/Linux/Commands.Linux.Mint.for.dev.md) [EN]
+
 
 
 ## Free thought
