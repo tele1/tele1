@@ -30,7 +30,7 @@ espeak -v polish --stdout -f file_name.txt | aplay
 espeak-ng  -v polish --stdout -f file_name.txt | ffmpeg -i - -ar 44100 -ac 2 -ab 192k -f mp3 output.mp3
 ```
 
-You can also read blog <https://nealgodfrey.com/how-to-convert-text-document-to-speech-on-ubuntu-using-espeak/>
+You can also read blog <https://nealgodfrey.com/how-to-convert-text-document-to-speech-on-ubuntu-using-espeak/>  
 which helped me. Thank you! :-)
 
 ## Example script
