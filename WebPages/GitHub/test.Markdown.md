@@ -46,6 +46,11 @@ Basic Syntax
     <td>Hello <br><br>World<br></td>
     <td>Hello <br><br>World<br></td>
   </tr>
+  <tr>
+    <td>" non-breaking space "</td>
+    <td>Hello<br>&amp;nbsp;<br>World<br></td>
+    <td>Hello <br><br>World<br></td>
+  </tr>
 </tbody>
 </table>
 
