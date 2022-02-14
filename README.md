@@ -55,6 +55,7 @@ If you don't understand something, use the online translator, for example google
 - [Domowe leczenie](WebPages/Think/leczenie.md) [PL]
 - [Przywłaszczenie linków](WebPages/Think/Linki.md) [PL]
 - [Nauka w szkole](WebPages/Think/NaukaWSzkole.md) [PL]
+- [Freedom Convoy](WebPages/Think/Freedom.md) [EN] [PL]
 
 
 ## About blog
