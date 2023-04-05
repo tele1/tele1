@@ -10,9 +10,9 @@ Allows you to quickly and conveniently insert frequently used text fragments
 
 ----
 
-### 1.1 How to comment-out multiple lines in Pluma
+### 1.1 How to comment-out multiple lines in Pluma?
 
-**- How to Add**
+**- How to Add?**
 
 
 
@@ -52,9 +52,17 @@ return output
 Set shortcut key:    Ctrl+3
 
 
+**- How it works?**
+
+Just try. Select several lines in the file.
+
+Press two keys **Ctrl+3**
+
+Your lines should already be commented out with **#**
+
 ----
 
-### 1.2 How to remove comments from multiple lines in Pluma
+### 1.2 How to remove comments from multiple lines in Pluma?
 
 I build script which will remove first character from selectect lines.
 
@@ -75,6 +83,20 @@ return output
 ```
 
 Set shortcut key:    Ctrl+R
+
+----
+
+
+### 1.3 How to add a tab to each selected line?
+
+Mark lines of code. Then click **Tab** key.
+
+Your lines should be shifted to the right.
+
+The distance can be changed, however 4 spaces = 1 tab is standard.
+
+Pluma --> Edit --> Preferences --> Editor --> Tab with
+
 
 ----
 
