@@ -66,6 +66,8 @@ Your lines should already be commented out with **#**
 
 I build script which will remove first character from selectect lines.
 
+Add to " Manage Snippets " like above in 1.1
+
 ```
 $<
 selected_txt = $PLUMA_SELECTED_TEXT
