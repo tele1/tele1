@@ -33,7 +33,7 @@ Set shortcut key:    Ctrl+3
 
 ----
 
-## How to remove comments multiple lines in Pluma
+## How to remove comments from multiple lines in Pluma
 
 I build script which will remove first character from selectect lines.
 
