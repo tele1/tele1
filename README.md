@@ -48,6 +48,7 @@ If you don't understand something, use the online translator, for example google
 - [Tree of process](WebPages/Linux/tree.of.process.md) [EN]
 - [Search package](WebPages/Linux/search.package.md) [EN]
 - [Pluma Trics](WebPages/Linux/Pluma.md) [EN]
+- [Linux Developer Tips - Guide](WebPages/Linux/Developer.md) [EN]
 
 
 
